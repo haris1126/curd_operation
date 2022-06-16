@@ -6,6 +6,7 @@ const addressSchema = new mongoose.Schema({
     city: {
         type: String,
         required: true,
+        maxLength: 50,
        
     },
     street: String
